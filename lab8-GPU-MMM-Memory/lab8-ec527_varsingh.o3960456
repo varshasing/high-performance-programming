@@ -1,0 +1,208 @@
+
+===== Matrix Size: 16 x 16 =====
+[CPU] Time: 0.00001200 s
+[Global Memory] GPU total time (incl. memcpy): 0.00134752 s
+[Global Memory] GPU kernel time: 0.00005222 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00001100 s
+[Shared Memory] GPU total time (incl. memcpy): 0.00004042 s
+[Shared Memory] GPU kernel time: 0.00000922 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00001000 s
+[Shared + Loop Unroll] GPU total time (incl. memcpy): 0.00003926 s
+[Shared + Loop Unroll] GPU kernel time: 0.00000819 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00001000 s
+[Bad Global Access (4a)] GPU total time (incl. memcpy): 0.00003898 s
+[Bad Global Access (4a)] GPU kernel time: 0.00000819 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00001000 s
+[Shared Conflict (4b)] GPU total time (incl. memcpy): 0.00003747 s
+[Shared Conflict (4b)] GPU kernel time: 0.00000717 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00001000 s
+[Global + Shared Bad (4c)] GPU total time (incl. memcpy): 0.00003782 s
+[Global + Shared Bad (4c)] GPU kernel time: 0.00000717 s
+MAX ERROR: 31159.000000
+
+===== Matrix Size: 32 x 32 =====
+[CPU] Time: 0.00007800 s
+[Global Memory] GPU total time (incl. memcpy): 0.00004131 s
+[Global Memory] GPU kernel time: 0.00000819 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00007700 s
+[Shared Memory] GPU total time (incl. memcpy): 0.00003987 s
+[Shared Memory] GPU kernel time: 0.00000717 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00007800 s
+[Shared + Loop Unroll] GPU total time (incl. memcpy): 0.00004026 s
+[Shared + Loop Unroll] GPU kernel time: 0.00000717 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00007700 s
+[Bad Global Access (4a)] GPU total time (incl. memcpy): 0.00004288 s
+[Bad Global Access (4a)] GPU kernel time: 0.00000922 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00007800 s
+[Shared Conflict (4b)] GPU total time (incl. memcpy): 0.00004138 s
+[Shared Conflict (4b)] GPU kernel time: 0.00000819 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00007700 s
+[Global + Shared Bad (4c)] GPU total time (incl. memcpy): 0.00003936 s
+[Global + Shared Bad (4c)] GPU kernel time: 0.00000717 s
+MAX ERROR: 127414.000000
+
+===== Matrix Size: 64 x 64 =====
+[CPU] Time: 0.00061800 s
+[Global Memory] GPU total time (incl. memcpy): 0.00006205 s
+[Global Memory] GPU kernel time: 0.00000717 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00064000 s
+[Shared Memory] GPU total time (incl. memcpy): 0.00005357 s
+[Shared Memory] GPU kernel time: 0.00000614 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00061200 s
+[Shared + Loop Unroll] GPU total time (incl. memcpy): 0.00005251 s
+[Shared + Loop Unroll] GPU kernel time: 0.00000717 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00061300 s
+[Bad Global Access (4a)] GPU total time (incl. memcpy): 0.00006208 s
+[Bad Global Access (4a)] GPU kernel time: 0.00001331 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00061200 s
+[Shared Conflict (4b)] GPU total time (incl. memcpy): 0.00005594 s
+[Shared Conflict (4b)] GPU kernel time: 0.00000717 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00061300 s
+[Global + Shared Bad (4c)] GPU total time (incl. memcpy): 0.00005206 s
+[Global + Shared Bad (4c)] GPU kernel time: 0.00000614 s
+MAX ERROR: 780528.000000
+
+===== Matrix Size: 128 x 128 =====
+[CPU] Time: 0.00538800 s
+[Global Memory] GPU total time (incl. memcpy): 0.00013251 s
+[Global Memory] GPU kernel time: 0.00000922 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00536100 s
+[Shared Memory] GPU total time (incl. memcpy): 0.00010662 s
+[Shared Memory] GPU kernel time: 0.00000819 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00536300 s
+[Shared + Loop Unroll] GPU total time (incl. memcpy): 0.00010694 s
+[Shared + Loop Unroll] GPU kernel time: 0.00000819 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00536200 s
+[Bad Global Access (4a)] GPU total time (incl. memcpy): 0.00011331 s
+[Bad Global Access (4a)] GPU kernel time: 0.00002048 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00536400 s
+[Shared Conflict (4b)] GPU total time (incl. memcpy): 0.00010230 s
+[Shared Conflict (4b)] GPU kernel time: 0.00000922 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.00544500 s
+[Global + Shared Bad (4c)] GPU total time (incl. memcpy): 0.00010272 s
+[Global + Shared Bad (4c)] GPU kernel time: 0.00000922 s
+MAX ERROR: 3775821.000000
+
+===== Matrix Size: 256 x 256 =====
+[CPU] Time: 0.04306900 s
+[Global Memory] GPU total time (incl. memcpy): 0.00039101 s
+[Global Memory] GPU kernel time: 0.00003123 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.04294200 s
+[Shared Memory] GPU total time (incl. memcpy): 0.00025475 s
+[Shared Memory] GPU kernel time: 0.00002112 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.04288200 s
+[Shared + Loop Unroll] GPU total time (incl. memcpy): 0.00025392 s
+[Shared + Loop Unroll] GPU kernel time: 0.00002192 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.04291100 s
+[Bad Global Access (4a)] GPU total time (incl. memcpy): 0.00035011 s
+[Bad Global Access (4a)] GPU kernel time: 0.00011459 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.04294000 s
+[Shared Conflict (4b)] GPU total time (incl. memcpy): 0.00025760 s
+[Shared Conflict (4b)] GPU kernel time: 0.00002557 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.04289700 s
+[Global + Shared Bad (4c)] GPU total time (incl. memcpy): 0.00025683 s
+[Global + Shared Bad (4c)] GPU kernel time: 0.00002586 s
+MAX ERROR: 23531884.000000
+
+===== Matrix Size: 512 x 512 =====
+[CPU] Time: 0.60647300 s
+[Global Memory] GPU total time (incl. memcpy): 0.00172806 s
+[Global Memory] GPU kernel time: 0.00016880 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.59915400 s
+[Shared Memory] GPU total time (incl. memcpy): 0.00141517 s
+[Shared Memory] GPU kernel time: 0.00010070 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.60639800 s
+[Shared + Loop Unroll] GPU total time (incl. memcpy): 0.00142995 s
+[Shared + Loop Unroll] GPU kernel time: 0.00010653 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.65413200 s
+[Bad Global Access (4a)] GPU total time (incl. memcpy): 0.00213258 s
+[Bad Global Access (4a)] GPU kernel time: 0.00081584 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.59621600 s
+[Shared Conflict (4b)] GPU total time (incl. memcpy): 0.00146234 s
+[Shared Conflict (4b)] GPU kernel time: 0.00012390 s
+MAX ERROR: 0.000000
+[CPU] Time: 0.63731100 s
+[Global + Shared Bad (4c)] GPU total time (incl. memcpy): 0.00148019 s
+[Global + Shared Bad (4c)] GPU kernel time: 0.00013338 s
+MAX ERROR: 132332552.000000
+
+===== Matrix Size: 1024 x 1024 =====
+[CPU] Time: 5.96587300 s
+[Global Memory] GPU total time (incl. memcpy): 0.00528016 s
+[Global Memory] GPU kernel time: 0.00117581 s
+MAX ERROR: 0.000000
+[CPU] Time: 5.96871800 s
+[Shared Memory] GPU total time (incl. memcpy): 0.00465498 s
+[Shared Memory] GPU kernel time: 0.00069133 s
+MAX ERROR: 0.000000
+[CPU] Time: 5.95949300 s
+[Shared + Loop Unroll] GPU total time (incl. memcpy): 0.00466752 s
+[Shared + Loop Unroll] GPU kernel time: 0.00070278 s
+MAX ERROR: 0.000000
+[CPU] Time: 5.96471300 s
+[Bad Global Access (4a)] GPU total time (incl. memcpy): 0.00976211 s
+[Bad Global Access (4a)] GPU kernel time: 0.00577510 s
+MAX ERROR: 0.000000
+[CPU] Time: 5.96503300 s
+[Shared Conflict (4b)] GPU total time (incl. memcpy): 0.00464595 s
+[Shared Conflict (4b)] GPU kernel time: 0.00089674 s
+MAX ERROR: 0.000000
+[CPU] Time: 5.96757200 s
+[Global + Shared Bad (4c)] GPU total time (incl. memcpy): 0.00491104 s
+[Global + Shared Bad (4c)] GPU kernel time: 0.00094461 s
+MAX ERROR: 743626560.000000
+
+===== Matrix Size: 2048 x 2048 =====
+[CPU] Time: 45.20091600 s
+[Global Memory] GPU total time (incl. memcpy): 0.02263373 s
+[Global Memory] GPU kernel time: 0.00926784 s
+MAX ERROR: 0.000000
+[CPU] Time: 45.49315900 s
+[Shared Memory] GPU total time (incl. memcpy): 0.01879664 s
+[Shared Memory] GPU kernel time: 0.00534538 s
+MAX ERROR: 0.000000
+[CPU] Time: 45.45055300 s
+[Shared + Loop Unroll] GPU total time (incl. memcpy): 0.01630141 s
+[Shared + Loop Unroll] GPU kernel time: 0.00533757 s
+MAX ERROR: 0.000000
+[CPU] Time: 45.45145200 s
+[Bad Global Access (4a)] GPU total time (incl. memcpy): 0.05581638 s
+[Bad Global Access (4a)] GPU kernel time: 0.04485786 s
+MAX ERROR: 0.000000
+[CPU] Time: 45.45936900 s
+[Shared Conflict (4b)] GPU total time (incl. memcpy): 0.01796387 s
+[Shared Conflict (4b)] GPU kernel time: 0.00697139 s
+MAX ERROR: 0.000000
+[CPU] Time: 45.42569200 s
+[Global + Shared Bad (4c)] GPU total time (incl. memcpy): 0.01761120 s
+[Global + Shared Bad (4c)] GPU kernel time: 0.00728163 s
+MAX ERROR: 4172165376.000000
