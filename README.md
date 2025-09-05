@@ -9,7 +9,7 @@ A collection of hands-on experiments exploring CPU and GPU performance optimizat
 - Generating roofline plots: analyzing code for strategic optimization effort, using different Arithmetic Intensites (AI)
   
 ### Lab 1: Memory Optimization
-- Memory bandwidth profiling with Perl script that compiled C program, measuring memory-copy speed.
+- Memory bandwidth profiling with script that compiled C program, measuring memory-copy speed.
 - Testing code transformations of matrix combine, multiply, and transpose, capturing data for number of cycles, speedup, and ratio of number of cycles to number of elements.
 - Optimizing and analyzing Matrix-Matrix Multiplication (MMM) using loop interchange.
 - Optimizing and analyzing MMM using blocking.
